@@ -4,20 +4,14 @@ export default function RootLayout() {
   return (
     <Stack>
       <Stack.Screen
-        name="index"
+        name="(tabs)"
         options={{
           headerTitle: "To-Do App",
           headerTitleAlign: "center",
         }}
       />
 
-      <Stack.Screen
-        name="about"
-        options={{
-          headerTitle: "About",
-          headerTitleAlign: "center",
-        }}
-      />
+      
     </Stack>
   );
 }
