@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "to_do_app_react_native",
-    "slug": "to_do_app_react_native",
+    "name": "MyTO DO",
+    "slug": "myto-do",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/mytodo.png",
     "scheme": "todoappreactnative",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -19,7 +19,8 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.nishan12322.mytodo"
     },
     "web": {
       "output": "static",
@@ -43,6 +44,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "f75c0a10-17f0-406f-b1df-44cd87536b72"
+      }
+    },
+    "owner": "nishan12322"
   }
 }
